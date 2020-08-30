@@ -9,6 +9,7 @@ import Shop from './components/Shop';
 import ItemDetails from './components/ItemDetails';
 import Parent from './components/Parent';
 import CustomHookUserForm from './components/CustomHookUserForm';
+import Axios from './components/Axios';
 
 function App() {
   return (
@@ -24,6 +25,7 @@ function App() {
           </Switch>
           <Route path='/child' component={Parent} />
           <Route path='/customhook' exact component={CustomHookUserForm} />
+          <Route path='/axios' exact component={Axios} />
         </div>
       </div>
     </Router>

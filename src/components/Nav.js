@@ -22,6 +22,9 @@ const Nav = () => {
           <Link to='/customhook' style={navStyle}>
             <li>Custom Hook</li>
           </Link>
+          <Link to='/axios' style={navStyle}>
+            <li>Axios</li>
+          </Link>
         </ul>
       </nav>
     </div>

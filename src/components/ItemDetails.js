@@ -1,7 +1,4 @@
 import React, { useState, useEffect } from 'react';
-import Shop from './Shop';
-
-import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 
 const ItemDetails = ({ match }) => {
   const [item, setItem] = useState({ images: {} });
